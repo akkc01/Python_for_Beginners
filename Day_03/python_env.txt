@@ -1,0 +1,156 @@
+# 🔷 Full Command Flow
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install psutil
+
+
+
+
+rm -rf venv .venv
+
+python3 -m venv venv
+source venv/bin/activate
+pip install psutil
+python cpu_usage_check.py
+
+
+```
+
+👉 These three steps create an **isolated Python environment** and install a package inside it.
+
+---
+
+# 🔹 1. `python3 -m venv venv`
+
+### What it means:
+
+* `python3` → runs the Python interpreter
+* `-m venv` → runs Python’s built-in **venv module**
+* `venv` → name of the environment (a folder)
+
+---
+
+### What it does:
+
+It creates a directory like this:
+
+```
+venv/
+ ├── bin/
+ ├── lib/
+ ├── include/
+```
+
+👉 Inside this folder:
+
+* Separate Python interpreter
+* Separate `pip`
+* Separate installed packages
+
+👉 So it is **completely isolated from system Python**
+
+---
+
+# 🔹 2. `source venv/bin/activate`
+
+### What it means:
+
+* `source` → executes a script in your current shell
+* `venv/bin/activate` → activates the virtual environment
+
+---
+
+### What it does:
+
+Your terminal changes like this:
+
+```bash
+(venv) amitkumar@...
+```
+
+👉 Now:
+
+* All Python and pip commands use this environment
+* Packages will install **inside venv only**, not globally
+
+---
+
+# 🔹 3. `pip install psutil`
+
+### What it means:
+
+* `pip` → Python package manager
+* `psutil` → a library for system monitoring
+
+---
+
+### What it does:
+
+Installs the package here:
+
+```
+venv/lib/pythonX.X/site-packages/
+```
+
+👉 Not in system Python — only inside this project
+
+---
+
+# 🔥 Why this is important (DevOps perspective)
+
+* Different projects need different dependencies
+* Avoid version conflicts
+* Protect system Python
+
+👉 Standard practice:
+✔ Always use a virtual environment per project
+
+---
+
+# 🧠 Simple Analogy
+
+* System Python = Operating System
+* Virtual Environment = Isolated workspace (like a mini container)
+
+---
+
+# ⚔️ Without vs With Virtual Environment
+
+| Without venv ❌          | With venv ✅       |
+| ----------------------- | ----------------- |
+| Global installs         | Isolated installs |
+| Version conflicts       | No conflicts      |
+| Risk of breaking system | Safe              |
+
+---
+
+# ⚡ Useful Commands
+
+### Deactivate environment:
+
+```bash
+deactivate
+```
+
+### Delete environment:
+
+```bash
+rm -rf venv
+```
+
+---
+
+# ⚡ Interview One-Liner
+
+👉
+“A Python virtual environment isolates dependencies for each project, preventing conflicts and protecting the system Python installation.”
+
+---
+
+If you want next step 🚀
+I can explain:
+
+* `requirements.txt` (very important for DevOps)
+* or how virtual environments are used in CI/CD pipelines
