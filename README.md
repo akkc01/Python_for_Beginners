@@ -136,14 +136,3 @@ This repository is aligned with **DevOps practices**, including:
 If you find this helpful, consider giving it a ⭐ on GitHub!
 
 ---
-
----
-
-If you want next level 🔥
-I can:
-
-* Add **badges (build, license, Python version)**
-* Add **real DevOps project (Terraform + Python)**
-* Or convert this into a **portfolio-ready repo**
-
-Just tell me 👍
