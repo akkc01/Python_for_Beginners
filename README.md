@@ -16,25 +16,6 @@ It is structured day-wise, covering core concepts and gradually moving toward re
 
 ---
 
-## 📁 Project Structure
-
-```
-python_for_beginners/
-│
-├── Day_01/
-│   └── basics.py
-│
-├── Day_02/
-│   └── loops_and_conditions.py
-│
-├── Day_03/
-│   └── functions_and_monitoring.py
-│
-└── README.md
-```
-
----
-
 ## 🚀 Topics Covered
 
 ---
