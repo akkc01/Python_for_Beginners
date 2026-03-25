@@ -25,29 +25,21 @@
 # print("\n")
 
 
-# for i in range(10):
-#    print("This is iteration number ",i)
-#    itr = input("Do you want to continue? (y/n): ")
-#    if itr.lower() == 'n':
-#        print("Exiting the loop")
-#        break
+for i in range(10):
+   print("This is iteration number ",i)
+   itr = input("Do you want to continue? (y/n): ")
+   if itr.lower() == 'n':
+       print("Exiting the loop")
+       break
    
-# print("\n")
+print("\n")
 
 
 
-# # Table Printing
-# number = int(input(f"Enter a number to get Table: \n"))
-# print(f"Table of - {number} is Below:- \n")
-# for i in range(1,11):   # range(start, end, increase/decrease) will generate numbers from 1 to 10 (11 is exclusive)
-#     print(number," x ",i," = ",number*i)    
+# Table Printing
+number = int(input(f"Enter a number to get Table: \n"))
+print(f"Table of - {number} is Below:- \n")
+for i in range(1,11):   # range(start, end, increase/decrease) will generate numbers from 1 to 10 (11 is exclusive)
+    print(number," x ",i," = ",number*i)    
 
 
-choice = input("Enter Your Choice (press q to quit): ")
-while choice!='q':
-    number = int(input(f"Enter a number to get Table: \n"))
-    print(f"Table of - {number} is Below:- \n")
-
-    for i in range(1,11):   # range(start, end, increase/decrease) will generate numbers from 1 to 10 (11 is exclusive)
-        print(number," x ",i," = ",number*i)   
-    choice = input("Enter Your Choice (press q to quit): ")

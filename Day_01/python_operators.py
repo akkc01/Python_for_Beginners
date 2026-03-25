@@ -1,5 +1,7 @@
+# Printing Output
 print("Hello World!, This is AKKC from Bharat")
 
+# Variables & Arithmetic Operations
 a=50
 b=20
 print("The value of a is ",a)
@@ -12,12 +14,21 @@ print("The floor division of a and b is ",a//b)
 print("The modulus of a and b is ",a%b)
 print("The exponentiation of a and b is ",a**b)
 
+
+# = is an assignment operator, it is used to assign a value to a variable
+# == is a comparison operator, it is used to compare two values and returns True or False
+
+# Comparison Operators
+
 print(a>b)
 print(a<b)
 print(a==b)
 print(a!=b)
 print(a>=b)
 print(a<=b)
+
+
+# if-elif-else with Logical Operators
 
 c=100
 if c>b and c>a:
@@ -28,15 +39,18 @@ else:
     print("c is not greater than a and b")
 
 
+#  Indexing
 
 akkc = "AKKC"
 print(akkc[0])
 print(akkc[1])
+
+# Data Types
 print(type(a))
 print(type(b))
 print(type(akkc))
 
-
+# Assignment Operators
 c+=50
 print("The value of c is ",c)
 d=c+30
@@ -45,10 +59,12 @@ d-=70
 e=d
 print("The value of e is ",e)
 
-print(500>d>50) # both are same as 500>d and d>50
+print(500>d>50) # its same as (500>d and d>50)
 print(500>d and d>50)
 
 
+
+# Logical Operators to know whether it is even or odd
 z=99
 if z%2==0:
     print("z is even")
@@ -56,6 +72,8 @@ else:
     print("z is odd")
 
 
+
+# 
 age = 103
 if age>=18 and age<=45:
     print("You are a Young Man")
