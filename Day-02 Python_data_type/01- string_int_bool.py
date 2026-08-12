@@ -1,5 +1,5 @@
-# 🔤 Python Data Types
-#
+# Python Data Types--
+
 # Data types define the type of value stored in a variable.
 # Python has several built-in data types.
 

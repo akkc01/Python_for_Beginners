@@ -1,6 +1,6 @@
 # Functions in Python
 
-# Function is define to add two numbers
+# Function to add two numbers
 def add(a, b): 
     return a + b
 
@@ -9,7 +9,7 @@ def sum():
     a = int(input(f"Enter your First Number:\n"))
     b = int(input(f"Enter your Second Number: \n"))
     sum = a+b
-    print(f"Sum of {a} and {b} is:",sum)
+    print(f"Sum of {a} and {b} is:",    sum)
 
 
 
