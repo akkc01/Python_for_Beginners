@@ -62,5 +62,5 @@ c = num1 + num2
 
 print("The sum of num1 and num2 is:", c)
 
-Print = output block
-input = terraformt.fvars
+# Print = output block
+# input = terraformt.fvars
