@@ -1,6 +1,5 @@
+# Python Variables
 
-# 📦 Python Variables
-#
 # A variable is a name used to store a value in memory.
 # Python variables are created when you assign a value to them.
 
