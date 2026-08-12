@@ -51,24 +51,25 @@ print("2026", "08", "12", sep="/")
 print("Hello")
 print("World")
 
-print("Hello", end=" ")
+print("Hello", end="-")
 print("World")
 
-print("Hello", end="---")
+print("Hello", end="**")
 print("World")
 
 
 # Escape Characters
 
 # New Line - \n
-print("Hello\nWorld")
+print("Hello Dosto\nMera Naam\nAmit Hai")
 
-# Tab - \t
+# # Tab - \t
+print("Hello Dosto\tMera Naam\tAmit Hai")
 print("Name\tAge")
 print("Amit\t30")
 
-# Quote
-print("He said \"Hello\"")
+Quote
+print("Hi Friends \"To Kaise Hn Aap log?\"")
 
 
 # Printing with Variables
@@ -80,6 +81,7 @@ age = 30
 
 print("Name:", name)
 print("Age:", age)
+print("Hi Dosto, Mera Naam", name, "Hai aur Mai", age, "Saal Ka Hoon.")
 
 
 # Using f-string

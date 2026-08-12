@@ -1,11 +1,9 @@
-# 🔷 Full Command Flow
+# Full Command Flow
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install psutil
-
-
 
 
 rm -rf venv .venv
@@ -18,7 +16,7 @@ python cpu_usage_check.py
 
 ```
 
-👉 These three steps create an **isolated Python environment** and install a package inside it.
+These three steps create an **isolated Python environment** and install a package inside it.
 
 ---
 
