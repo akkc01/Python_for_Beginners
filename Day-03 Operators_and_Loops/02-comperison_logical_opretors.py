@@ -1,10 +1,5 @@
-
-# ============================================================
-# 3. Comparison Operators
-# ============================================================
-# Used to compare two values.
-# The result is always True or False.
-
+# Comparison Operators -----------
+# Used to compare two values. The result is always True or False.
 
 a = 10
 b = 20
@@ -22,9 +17,7 @@ age = 25
 print(age >= 18)
 
 
-# ============================================================
-# 4. Logical Operators
-# ============================================================
+# Logical Operators--------------------
 # Used to combine multiple conditions.
 
 print(f"Hi Now Working with Logical operators")
@@ -35,15 +28,11 @@ has_license = True
 print(age >= 18 and has_license)
 
 
-# or
 # Returns True if at least one condition is True.
-
 print(age >= 18 or has_license)
-
 
 # Reverses the result.
 print(not has_license)
-
 
 # Example
 username = "admin"
@@ -55,12 +44,11 @@ else:
     print("Login Failed, Please Enter Right Credencials")
 
 
+username = str(input("Enter your Username: "))
+password = int(input("Enter Your Password: "))
 
-# username = str(input("Enter your Username: "))
-# password = int(input("Enter Your Password: "))
-
-# if username == "admin" and password == 12345:
-#     print("Login successful")
-# else:
-#     print("Login Failed, Please Enter Right Credentials")
+if username == "admin" and password == 12345:
+    print("Login successful")
+else:
+    print("Login Failed, Please Enter Right Credentials")
 

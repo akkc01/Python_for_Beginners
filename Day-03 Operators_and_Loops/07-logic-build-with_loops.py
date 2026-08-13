@@ -1,28 +1,28 @@
-# # For Loops
-# # Python have 2 types of loops - for and while loop
+# For Loops
+# Python have 2 types of loops - for and while loop
 
 
-# a=int(input("Enter a number: "))
-# for i in range(a):
-#     print(i)
+a=int(input("Enter a number: "))
+for i in range(a):
+    print(i)
 
-# print("\n") # This is used to print a new line
+print("\n") # This is used to print a new line
 
-# numbers = [1,2,3,4,5,6,7,8,9,10]
-# for i in numbers:
-#     if i == 6:
-#         break
-#     print(i)
-#     #exit() # This will exit the loop after printing the first number
-# print("List has been printed ")
+numbers = [1,2,3,4,5,6,7,8,9,10]
+for i in numbers:
+    if i == 6:
+        break
+    print(i)
+    #exit() # This will exit the loop after printing the first number
+print("List has been printed ")
 
-# print("\n")
+print("\n")
 
-# for i in range(5):
-#   for j in range(3):
-#     print(i, j)
+for i in range(5):
+  for j in range(3):
+    print(i, j)
 
-# print("\n")
+print("\n")
 
 
 for i in range(10):

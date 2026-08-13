@@ -46,65 +46,6 @@ print("My Friends Age are:", friends_age[0],"and", friends_age[2])
 print("My Friends Details are:", friends_details["name"],"and", friends_details["age"])
 
 
-# List Operations---
-print(f"This is study group friends: {study_friends}")
-study_friends.append("Ramesh") # it will append values in list at last
-print(f"This is study group friends after adding new friend: {study_friends}")
-study_friends.insert(1, "Suresh")
-print(f"This is study group friends: {study_friends}")
-study_friends.extend(["Ravi", "Mohan"])
-print(f"This is study group friends: {study_friends}")
-study_friends.remove("Dinesh")
-print(f"This is study group friends: {study_friends}")
-study_friends.pop(3)
-print(f"This is study group friends: {study_friends}")
-del study_friends[1]
-print(f"This is study group friends: {study_friends}")
-study_friends.clear()
-print(f"This is study group friends: {study_friends}")
-
-
-# Dictionary Operations--
-
-friends_data = {
-    "name": "Amit",
-    "age": 30,
-    "city": "Pune"
-}
-
-print(f"Hi, It's our Dictionary: {friends_data}")
-print(friends_data["name"])
-print(friends_data.get("name"))
-friends_data["email"] = "amit@example.com"
-print(f"Hi, It's our Dictionary: {friends_data}")
-
-friends_data.update({
-    "phone": "9876543210",
-    "country": "India"
-})
-
-print(f"Hi, It's our Dictionary: {friends_data}")
-
-friends_data["age"] = 31 # existing values change
-print(f"Hi, It's our Dictionary: {friends_data}")
-friends_data.update({"age": 32})
-print(f"Hi, It's our Dictionary: {friends_data}")
-
-del friends_data["city"]
-print(f"Hi, It's our Dictionary: {friends_data}")
-friends_data.pop("email")
-print(f"Hi, It's our Dictionary: {friends_data}")
-
-country = friends_data.pop("country")
-print(f"Hi removed Country is: {country}")
-print(f"Hi, It's our Dictionary: {friends_data}")
-
-friends_data.popitem() # remove last key:value
-print(f"Hi, It's our Dictionary: {friends_data}")
-friends_data.clear()
-print(f"Hi, It's our Dictionary: {friends_data}")
-
-
 # input() function
 
 name = input("Enter your name: ")

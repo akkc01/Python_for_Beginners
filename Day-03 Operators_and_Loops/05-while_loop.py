@@ -1,9 +1,5 @@
-
-# ============================================================
-# 2. while LOOP
-# ============================================================
+# while LOOP ------------
 # A while loop executes as long as the condition is True.
-
 
 # Basic while Loop
 num = 0
