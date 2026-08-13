@@ -6,24 +6,13 @@
 
 
 # Basic while Loop
-
-count = 1
-
-while count <= 5:
-    print(count)
-    count += 1
+num = 0
+while num <= 5:
+    print(num)
+    num += 1 # (num = num + 1)
 
 
-# Output:
-# 1
-# 2
-# 3
-# 4
-# 5
-
-
-# while Loop with User Input
-
+# # while Loop with User Input
 number = int(input("Enter a number: "))
 
 while number > 0:

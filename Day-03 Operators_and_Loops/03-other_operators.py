@@ -1,11 +1,8 @@
-
-
 # ============================================================
 # 5. Identity Operators
 # ============================================================
 # Identity operators compare whether two variables
 # refer to the same object in memory.
-#
 # is
 # is not
 
@@ -16,7 +13,6 @@ c = [1, 2, 3]
 
 print(a is b)
 print(a is c)
-
 print(a is not c)
 
 
@@ -24,8 +20,7 @@ print(a is not c)
 # 6. Membership Operators
 # ============================================================
 # Used to check whether a value exists in a sequence.
-#
-# in
+
 # not in
 
 

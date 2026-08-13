@@ -18,9 +18,7 @@ print(a <= b)    # Less than or equal to
 
 
 # Example
-
 age = 25
-
 print(age >= 18)
 
 
@@ -29,14 +27,11 @@ print(age >= 18)
 # ============================================================
 # Used to combine multiple conditions.
 
-
-age = 30
+print(f"Hi Now Working with Logical operators")
+age = 20
 has_license = True
 
-
-# and
 # Returns True if both conditions are True.
-
 print(age >= 18 and has_license)
 
 
@@ -46,16 +41,26 @@ print(age >= 18 and has_license)
 print(age >= 18 or has_license)
 
 
-# not
 # Reverses the result.
-
 print(not has_license)
 
 
 # Example
-
 username = "admin"
-password = "12345"
+password = "123456"
 
 if username == "admin" and password == "12345":
     print("Login successful")
+else:
+    print("Login Failed, Please Enter Right Credencials")
+
+
+
+# username = str(input("Enter your Username: "))
+# password = int(input("Enter Your Password: "))
+
+# if username == "admin" and password == 12345:
+#     print("Login successful")
+# else:
+#     print("Login Failed, Please Enter Right Credentials")
+
