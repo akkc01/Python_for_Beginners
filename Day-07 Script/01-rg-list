@@ -1,0 +1,19 @@
+from azure.identity import DefaultAzureCredential
+from azure.mgmt.resource import ResourceManagementClient
+
+
+subscription_id = "3435k-v6v65b-bfhfb6-56v67v-35gfdt"  # Azure subscription ID
+credential = DefaultAzureCredential()  # Create Azure authentication credential
+
+resource_client = ResourceManagementClient(
+    credential,
+    subscription_id
+)  # Create Resource Management client
+
+
+resource_groups = resource_client.resource_groups.list()  # Get all Resource Groups
+
+for rg in resource_groups:
+    print(f"Resource Group Name : {rg.name}")
+    print(f"Location            : {rg.location}")
+    print("-" * 50)
