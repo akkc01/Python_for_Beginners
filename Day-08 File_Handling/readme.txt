@@ -1,0 +1,6 @@
+I help organizations build secure, scalable, and fully automated cloud infrastructure that enables faster, reliable and repeatable application deployments. Over the past 8 years in IT, including more than 5 years focused on Azure and DevOps, I’ve worked extensively with Terraform, Docker, Kubernetes, Azure DevOps, GitHub Actions, Ansible and CI/CD automation.
+
+I have designed and implemented Infrastructure as Code using Terraform, provisioned and managed production-grade AKS clusters, and deployed multiple microservices-based applications using Helm and GitOps with ArgoCD. I’ve built complete automated pipelines covering code commit to production — including build, security scanning, containerization, image registry push, Helm value updates, and continuous deployment to Kubernetes environments.
+
+Additionally, I have hands-on experience troubleshooting issues across Kubernetes, networking, ingress controllers, Azure services, Terraform, and CI/CD pipelines. My work has significantly reduced manual effort, improved deployment consistency, security and reliability across environments.
+Now, I’m looking for an opportunity where I can contribute to large-scale cloud infrastructure, application deployment, enhance automation maturity, and work on challenging cloud-native and DevOps projects while continuing to expand my expertise.
