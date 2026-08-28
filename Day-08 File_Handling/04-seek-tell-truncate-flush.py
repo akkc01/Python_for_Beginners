@@ -1,12 +1,12 @@
 # seek() — Move file pointer
 #seek() file pointer ko kisi specific position par move karta hai.
-file = open("readme.txt", "r")
-file.seek(0)  # Move the file pointer to the beginning of the file
-file.seek(5)  # Move the file pointer to position 5
-content = file.read()  # Read the file from the current pointer position
+file = open("rahul.txt", "r")
+content = file.read()
+#print(content)
+file.seek(7)          # pointer ko position 7 par le jao
+content = file.read() # position 7 se aage read karo
 print(content)
 file.close()
-
 
 # tell() — Check file pointer position
 # tell() batata hai ki file pointer currently kis position par hai.
