@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: axion-svc
+spec:
+  selector:
+    app: axion
+  ports:
+  - port: 80
+    targetPort: 80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: ui-svc
+spec:
+  selector:
+    app: ui
+  ports:
+  - port: 80
+    targetPort: 8000

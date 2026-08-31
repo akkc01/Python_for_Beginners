@@ -1,0 +1,8 @@
+enabled: true
+name: axion
+replicas: 3
+tags:
+- python
+- yaml
+- kubernetes
+version: 1.5

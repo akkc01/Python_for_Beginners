@@ -1,0 +1,4 @@
+name: axion
+replicas: 3
+enabled: true
+version: 1.5
