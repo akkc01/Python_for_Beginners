@@ -23,14 +23,12 @@ print(add(x,y))
 
 # a = int(input("Enter first number: "))
 # b = int(input("Enter second number: "))
-
 # result = add(a, b)
 # print(f"Sum of {a} and {b} is: {result}")
 
 
 
 # Calling the Sum Function
-
 env = str(input("Enter the Environment: "))
 
 if env=="prod":
