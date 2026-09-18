@@ -1,0 +1,92 @@
+[
+    {
+        "name": "rg-dev",
+        "location": "centralindia",
+        "subscription": "Dev-Subscription",
+        "environment": "development"
+    },
+    {
+        "name": "rg-test",
+        "location": "eastus",
+        "subscription": "Test-Subscription",
+        "environment": "testing"
+    },
+    {
+        "name": "rg-prod",
+        "location": "westeurope",
+        "subscription": "Prod-Subscription",
+        "environment": "production"
+    },
+    {
+        "name": "rg-network",
+        "location": "centralindia",
+        "subscription": "Dev-Subscription",
+        "environment": "shared"
+    },
+    {
+        "name": "rg-security",
+        "location": "eastus",
+        "subscription": "Security-Subscription",
+        "environment": "shared"
+    },
+    {
+        "name": "rg-monitoring",
+        "location": "uksouth",
+        "subscription": "Prod-Subscription",
+        "environment": "shared"
+    },
+    {
+        "name": "rg-aks-dev",
+        "location": "centralindia",
+        "subscription": "Dev-Subscription",
+        "environment": "development"
+    },
+    {
+        "name": "rg-aks-prod",
+        "location": "southindia",
+        "subscription": "Prod-Subscription",
+        "environment": "production"
+    },
+    {
+        "name": "rg-database-dev",
+        "location": "centralindia",
+        "subscription": "Dev-Subscription",
+        "environment": "development"
+    },
+    {
+        "name": "rg-database-prod",
+        "location": "eastus2",
+        "subscription": "Prod-Subscription",
+        "environment": "production"
+    },
+    {
+        "name": "rg-storage",
+        "location": "westus2",
+        "subscription": "Dev-Subscription",
+        "environment": "shared"
+    },
+    {
+        "name": "rg-container-apps",
+        "location": "centralindia",
+        "subscription": "Dev-Subscription",
+        "environment": "development"
+    },
+    {
+        "name": "rg-appgateway",
+        "location": "westeurope",
+        "subscription": "Prod-Subscription",
+        "environment": "production"
+    },
+    {
+        "name": "rg-backup",
+        "location": "australiaeast",
+        "subscription": "Prod-Subscription",
+        "environment": "shared"
+    },
+    {
+        "name": "rg-sandbox",
+        "location": "northcentralus",
+        "subscription": "Test-Subscription",
+        "environment": "testing"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "rg-dev",
+        "location": "centralindia",
+        "subscription": "Prod-Subscription",
+        "environment": "shared"
+    },
+    {
+        "name": "rg-prod",
+        "location": "eastus",
+        "subscription": "Dev-Subscription",
+        "environment": "development"
+    },
+    {
+        "name": "rg-network-akkc",
+        "location": "centralindia",
+        "subscription": "akkc-Prod-Subscription",
+        "environment": "shared-akkc"
+    },
+    {
+        "name": "rg-network-akkc",
+        "location": "centralindia",
+        "subscription": "akkc-Prod-Subscription",
+        "environment": "shared-akkc"
+    }
+]
