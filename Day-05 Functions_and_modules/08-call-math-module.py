@@ -1,5 +1,7 @@
 import math
 
+print(dir(math))
+
 a = 16
 p = math.sqrt(a)
 print(f"Square root of {a} is:", p)

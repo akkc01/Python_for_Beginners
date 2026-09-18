@@ -12,19 +12,21 @@ def sum():
     print(f"Sum of {a} and {b} is:",    sum)
 
 
-
 # Calling the Add Function
+# p = add(20,30)
+# print(p)
+
 print(add(50,60))
 
 
-x=20
-y=40
+x=200
+y=400
 print(add(x,y))
 
-# a = int(input("Enter first number: "))
-# b = int(input("Enter second number: "))
-# result = add(a, b)
-# print(f"Sum of {a} and {b} is: {result}")
+# # a = int(input("Enter first number: "))
+# # b = int(input("Enter second number: "))
+# # result = add(a, b)
+# # print(f"Sum of {a} and {b} is: {result}")
 
 
 
