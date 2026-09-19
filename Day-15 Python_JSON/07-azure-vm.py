@@ -14,7 +14,7 @@ for vm in vms:
 
 
 
-#import subprocess
+import subprocess
 import json
 
 result = subprocess.run(
