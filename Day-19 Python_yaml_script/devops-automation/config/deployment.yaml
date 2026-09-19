@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: axion-api
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: axion-api
+  template:
+    metadata:
+      labels:
+        app: axion-api
+    spec:
+      containers:
+
+        - name: axion-api
+          image: myacr.azurecr.io/axion-api:v2.0.0
+          ports:
+            - containerPort: 8080
+
+            

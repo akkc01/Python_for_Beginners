@@ -1,8 +1,9 @@
 from pathlib import Path
 
+# cd /Users/amitkumar/Documents/Study-Akkc/Python/Day-20 Terraform_Automation/02-command-automation/projects    , then run this file.
 
 # Root Project Directory
-root = Path("axion-app-infra")
+root = Path("E-Learning-app")
 
 # Environment Directory Structure
 parent = root / "environment"

@@ -12,8 +12,8 @@ spec:
         app: axion-app
     spec:
       containers:
-      - name: axion-app
-        image: nginx:latest
+      - name: axion-ui
+        image: myacr.azurecr.io/axion-api:v1.2.5
         resources:
           limits:
             memory: "128Mi"
