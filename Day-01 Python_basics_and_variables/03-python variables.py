@@ -1,11 +1,8 @@
-# Python Variables
-
-# A variable is a name used to store a value in memory.
+# Python Variables: A variable is a name used to store a value in memory.
 # Python variables are created when you assign a value to them.
 
 
 # Creating a Variable
-
 name = "Amit"
 age = 30
 salary = 75000
@@ -16,7 +13,6 @@ print(salary)
 
 
 # Variable with Different Data Types
-
 name = "Amit"          # String
 age = 30               # Integer
 salary = 75000.50      # Float
@@ -29,7 +25,6 @@ print(is_active)
 
 
 # Checking Variable Type
-
 name = "Amit"
 age = 30
 
@@ -38,7 +33,6 @@ print(type(age))
 
 
 # Assigning Multiple Variables
-
 name, age, city = "Amit", 30, "Pune"
 
 print(name)
@@ -47,7 +41,6 @@ print(city)
 
 
 # Assigning the Same Value to Multiple Variables
-
 x = y = z = 100
 
 print(x)
@@ -56,31 +49,25 @@ print(z)
 
 
 # Reassigning a Variable
-
 name = "Amit"
-
 print(name)
 
 name = "Kumar"
-
 print(name)
 
 
 # Variable Value Can Change Its Data Type
-
 value = 100
 
 print(value)
 print(type(value))
 
 value = "Python"
-
 print(value)
 print(type(value))
 
 
 # Variable Names are Case-Sensitive
-
 name = "Amit"
 Name = "Kumar"
 
@@ -89,7 +76,6 @@ print(Name)
 
 
 # Valid Variable Names
-
 first_name = "Amit"
 last_name = "Verma"
 age1 = 30
@@ -114,7 +100,6 @@ print(user_name)
 
 
 # Variable Naming Convention
-
 first_name = "Amit"
 last_name = "Verma"
 date_of_birth = "1995"
@@ -128,7 +113,6 @@ print(date_of_birth)
 
 # Python does not have a strict constant keyword.
 # By convention, constants are written in uppercase.
-
 PI = 3.14159
 MAX_CONNECTIONS = 100
 APP_NAME = "MyApplication"
@@ -139,7 +123,6 @@ print(APP_NAME)
 
 
 # Variables with Expressions
-
 a = 10
 b = 20
 
@@ -153,7 +136,6 @@ print(product)
 
 
 # Variables with User Input
-
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 
@@ -162,18 +144,13 @@ print("Age:", age)
 
 
 # Deleting a Variable
-
 name = "Amit"
-
 print(name)
-
 del name
 
 # print(name)    # NameError because the variable was deleted
 
-
 # Checking if a Variable Exists
-
 name = "Amit"
 
 if "name" in globals():
@@ -181,7 +158,6 @@ if "name" in globals():
 
 
 # Multiple Data Types in Variables
-
 username = "admin"
 port = 8080
 version = 1.5
@@ -196,7 +172,6 @@ print(services)
 
 
 # Real-World Example
-
 application_name = "MyApp"
 environment = "production"
 replicas = 3

@@ -1,6 +1,6 @@
 ## Python Installation — macOS, Linux & Windows
 
-### 🍎 macOS
+### macOS
 
 **Option 1 — Homebrew (Recommended)**
 
